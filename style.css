@@ -1,0 +1,115 @@
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e27696;
+        }
+
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #673681;
+            color: #ffffff;
+            border: 10.2 px solid #d57171;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .navbar-one {
+            overflow: hidden;
+            padding: 10px 10px;
+            align-items: center;
+            position: relative;
+            color: rgb(34, 32, 80);
+            padding: 10px 10px;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+
+        }
+
+        .material-selector {
+            margin-left: 500px;
+            margin-right: 100px;
+        }
+       
+        .container-navbar {
+            position: relative;
+            background-color: rgb(124, 122, 207);
+            color: rgb(178, 240, 139);
+            padding: 10px 10px;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+        }
+
+        .container-navbar {
+        background-color: #aa1275;
+        color: #ffffff;
+        overflow: hidden;
+        }
+
+        .container-navbar a {
+        float: left;
+        display: block;
+        background-color: #aa1275;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        .container-navbar a:hover {
+        background-color: #c9f2c7;
+        color: #d85da3;
+        border-radius: 2px;
+        }
+
+        .container-navbar a.active {
+        background-color: #A7C6DA;
+        color: rgb(18, 14, 14);
+        }
+
+        .topnav .icon {
+        display: none;
+        }
+
+    
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            color: #f8f1f1;
+            background-color: rgb(0, 0, 0);
+            margin-top: 100px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        .image-upper {
+            width: 280px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid #d57171;
+            border-radius: 10px;
+
+        }
+
+        .image-lower {
+            width: 290px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid #d57171;
+            border-radius: 10px;
+        }
+
+        .description {
+            text-align: center;
+            color: #f8f1f1;
+            font-size: 18px;
+            margin-top: 10px;
+        }
